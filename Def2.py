@@ -1,7 +1,7 @@
 def def2(**kwargs):
 	globals().update(kwargs)
-
-def2(yup=lambda:(print("hellO"), print("goodbye")), mhm=lambda:(print("mhm"), print("howdy")))
+a, b, c = 1, 2, 3
+def2(yup=lambda:(print(f"hellO{a}"), print(f"goodbye{b}")), mhm=lambda:(print(f"mhm{c}"), print("howdy")))
 
 yup()
 mhm()
