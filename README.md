@@ -8,4 +8,4 @@ import def2 from def2
 
 in order to use this program type in
 
-def2( firstfunction=lambda: (print("this is the firstfunction"), print("this is also a part of the first function")), secondfunction=lambda: (print("this is the second function), print("this is also a part of the second function")))
+def2( firstfunction=lambda: (print("this is the firstfunction"), print("this is also a part of the first function")), secondfunction=lambda: (print("this is the second function"), print("this is also a part of the second function")))
